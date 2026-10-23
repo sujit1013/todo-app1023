@@ -4,7 +4,6 @@ export default function TodoList({ todos, onToggle, onDelete }) {
   if (todos.length === 0) {
     return <p>やることはありません</p>
   }
-
   return (
     <ul>
       {todos.map((todo) => (
